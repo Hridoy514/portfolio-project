@@ -16,6 +16,7 @@ h1{
 }
 .half-width img{
     width: 100%;
+    filter: brightness(110%) contrast(110%);
 }
 .top-side-banner{
     background-image: url(img/top-banner.png);
@@ -23,6 +24,14 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 90px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+    text-align: justify;
 }
 .link-button{
     text-decoration: none;
@@ -30,4 +39,9 @@ section{
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
+}
+.dream-area{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
